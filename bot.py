@@ -6,7 +6,7 @@ import buttons
 
 ###########################################
 def load_keys():
-    settings.Context['keys']['telegram'] = open('.keys/.telegram').read()
+    settings.Context['keys']['telegram'] = open('.keys/.telegram').read().strip()
 ###########################################
 
 
